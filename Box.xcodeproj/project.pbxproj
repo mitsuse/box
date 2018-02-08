@@ -10,6 +10,8 @@
 		2CFBC33A202C2B8600A244B5 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBC338202C2B8600A244B5 /* Box.swift */; };
 		2CFBC33B202C2B8600A244B5 /* Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBC339202C2B8600A244B5 /* Lazy.swift */; };
 		2CFBC340202C2BA600A244B5 /* Box.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CFBC33E202C2BA600A244B5 /* Box.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CFBC346202C2DCA00A244B5 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBC344202C2DCA00A244B5 /* Variable.swift */; };
+		2CFBC347202C2DCA00A244B5 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBC345202C2DCA00A244B5 /* Weak.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		2CFBC339202C2B8600A244B5 /* Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lazy.swift; sourceTree = "<group>"; };
 		2CFBC33E202C2BA600A244B5 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
 		2CFBC33F202C2BA600A244B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFBC344202C2DCA00A244B5 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		2CFBC345202C2DCA00A244B5 /* Weak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				2CFBC338202C2B8600A244B5 /* Box.swift */,
 				2CFBC339202C2B8600A244B5 /* Lazy.swift */,
+				2CFBC344202C2DCA00A244B5 /* Variable.swift */,
+				2CFBC345202C2DCA00A244B5 /* Weak.swift */,
 			);
 			path = Box;
 			sourceTree = "<group>";
@@ -162,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFBC33A202C2B8600A244B5 /* Box.swift in Sources */,
+				2CFBC347202C2DCA00A244B5 /* Weak.swift in Sources */,
+				2CFBC346202C2DCA00A244B5 /* Variable.swift in Sources */,
 				2CFBC33B202C2B8600A244B5 /* Lazy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
