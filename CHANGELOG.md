@@ -1,5 +1,7 @@
 ## Unreleased
 
+## 0.4.0
+
 - Use Swift 5.3.
 
 
