@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   }
   spec.ios.deployment_target = '10.0'
   spec.source_files = 'Sources/Box/*.swift'
-  spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
+  spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.3' }
 end

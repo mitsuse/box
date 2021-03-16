@@ -192,7 +192,7 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "Box.xcodeproj/Box_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -233,7 +233,7 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "Box.xcodeproj/Box_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -352,12 +352,10 @@
                "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "/Applications/Xcode-12.4.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk",
                "-package-description-version",
-               "5.1"
+               "5.3.0"
             );
             SWIFT_VERSION = "5.0";
          };
@@ -372,12 +370,10 @@
                "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "/Applications/Xcode-12.4.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk",
                "-package-description-version",
-               "5.1"
+               "5.3.0"
             );
             SWIFT_VERSION = "5.0";
          };
@@ -478,13 +474,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "Box.xcodeproj/BoxTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -517,13 +513,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "Box.xcodeproj/BoxTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
